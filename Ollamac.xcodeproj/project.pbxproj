@@ -364,7 +364,7 @@
 				0AB30EB02B272A67009C038A /* XCRemoteSwiftPackageReference "ChatField" */,
 				0AB362A02C398ED700DE3F31 /* XCRemoteSwiftPackageReference "Highlightr" */,
 				0A2C4E402C428F5E007794CC /* XCRemoteSwiftPackageReference "Defaults" */,
-				0ADB960C2C5D57D500EB0C60 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				0ADB960C2C5D57D500EB0C60 /* XCRemoteSwiftPackageReference "MarkdownUI" */,
 				0AF5CB662C62BCA100DF8DA8 /* XCRemoteSwiftPackageReference "AppInfo" */,
 			);
 			productRefGroup = 0A4D35822AF541D900846890 /* Products */;
@@ -565,7 +565,7 @@
 				CURRENT_PROJECT_VERSION = 12;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Ollamac/Preview Content\"";
-				DEVELOPMENT_TEAM = 84ZM7K56B5;
+				DEVELOPMENT_TEAM = 962Z8PV35L;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -691,12 +691,12 @@
 				minimumVersion = 1.0.5;
 			};
 		};
-		0ADB960C2C5D57D500EB0C60 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+		0ADB960C2C5D57D500EB0C60 /* XCRemoteSwiftPackageReference "MarkdownUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui.git";
+			repositoryURL = "https://github.com/gonzalezreal/MarkdownUI";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.3.1;
+				minimumVersion = 2.3.0;
 			};
 		};
 		0AE024812AFB898300347C18 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
@@ -758,7 +758,7 @@
 		};
 		0ADB960D2C5D57D500EB0C60 /* MarkdownUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0ADB960C2C5D57D500EB0C60 /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			package = 0ADB960C2C5D57D500EB0C60 /* XCRemoteSwiftPackageReference "MarkdownUI" */;
 			productName = MarkdownUI;
 		};
 		0AE024822AFB898300347C18 /* Sparkle */ = {
